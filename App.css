@@ -1,0 +1,180 @@
+
+/*----------Assignment Requirements------------*/
+body {
+  background-color:#2F3E46;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  margin: 3%;
+  padding: 3%;
+  padding-bottom: 56.25%;
+  color:#CAD2C5;
+}
+
+tr th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  padding-right:6px;
+  text-align: center;
+  background-color: #52796F;;
+  color: #CAD2C5;
+  border: 3px solid #CAD2C5;
+}
+
+tr td {
+  border: 3px solid #CAD2C5;
+  padding: 8px;
+  color: #2F3E46;;
+}
+
+button {
+  align-self: center;
+  background-color: #2F3E46;
+  color:#CAD2C5;
+  width: 10%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+input {
+  size: 1.5 cm;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  width: 15cm
+}
+
+/*----------------------------------------------------------*/
+/*Additional Styling*/
+a:link {
+  color: #CAD2C5
+}
+
+a:visited {
+  color:#2F3E46;
+} 
+
+
+table {
+  margin-top: 1cm;
+  border: 3px solid #84A98C;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  
+}
+
+#header {
+  background-color: #84A98C;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-bottom: solid 3px#CAD2C5;
+  border-top: solid 3px#CAD2C5;
+  color: #2F3E46;
+  width: 100%;
+  position:relative;
+  top: 0;
+}
+
+select {
+  size: 1.5 cm;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  width: 15cm
+}
+
+option {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  size: 1.5 cm;
+  width: 15cm
+}
+
+#input-field {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  background-color: #84A98C;
+  padding: 10px;
+  font-size: 10pt;
+  text-align: left;
+  border: solid 3px#CAD2C5;
+  position: relative;
+  top: 20px;
+  color:#2F3E46;
+}
+
+
+#button {
+  text-align: center;
+}
+
+#create-header{
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  color: #2F3E46
+}
+
+#edit-header{
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  color: #2F3E46;
+}
+
+nav{
+  text-align: left;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  font-size: 80%;
+}
+
+footer{
+  position:fixed;
+  bottom: 0px;
+  left: 0px;
+  font-size: 10%;
+  background-color: #84A98C;
+  width: 100%;
+  border-top:solid 3px#CAD2C5;
+  color: #2F3E46;
+}
+
+
+#copyright {
+  position: relative;
+  left: 5px;
+}
+
+#description {
+  font-size: 80%;
+}
+
+#table {
+  padding-bottom: 56.25%;
+}
+
+#form {
+  padding-bottom: 56.25%;
+}
+
+/*-------------------------------------------------*/
+/*The below code is not my own.*/
+/* SOURCE: https://canvas.oregonstate.edu/courses/1914625/pages/exploration-react-components-for-collections?module_item_id=23098222
+/*The below code was taken/modified from the css file provided in module 8 - exploration React Components for Collections*/
+/*It adjusts elements within the App-layout class housed in the App.js file and how the table appears on the homepage. Certain elements*/
+/*have been modified from the source to work better with the rest of the design.*/
+
+.App-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: black;
+}
+
+tr:nth-child(even){background-color: #52796F;}
+tr:nth-child(odd){background-color: #84A98C; }
+
+#row:hover {
+  background-color: #CAD2C5;
+  transition: 0.3s;
+  color: #2F3E46;
+}
+
+/*------END CITATION-------------------*/
